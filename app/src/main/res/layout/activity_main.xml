@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI BALEKAMBANG"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiBale"
+                android:layout_width="match_parent"
+                android:layout_height="346dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_balekambang" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI BANYU MENENG"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiBanyu"
+                android:layout_width="match_parent"
+                android:layout_height="337dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_banyu" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI BATU BENGKUNG"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiBatu"
+                android:layout_width="match_parent"
+                android:layout_height="336dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_batu" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI GATRA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiGatra"
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_gatra" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI WATU LETER"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiWatu"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_leter" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI LICIN"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiLicin"
+                android:layout_width="match_parent"
+                android:layout_height="338dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_licin" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI SENDANG BIRU"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiSendang"
+                android:layout_width="match_parent"
+                android:layout_height="336dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_sendang" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI SENDIKI"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiSendiki"
+                android:layout_width="match_parent"
+                android:layout_height="264dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_sendiki" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI TELUK ASMARA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiTeluk"
+                android:layout_width="match_parent"
+                android:layout_height="319dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_teluk" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PANTAI TIGA WARNA"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingTop="20dp"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:id="@+id/pantaiTiga"
+                android:layout_width="match_parent"
+                android:layout_height="336dp"
+                android:paddingBottom="30dp"
+                app:srcCompat="@drawable/pantai_tiga" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/profile_foreground" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

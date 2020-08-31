@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tyoang.wisatapantaimalang">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconn_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconn_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key"/>
+
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".pantai.BaleActivity"></activity>
+        <activity android:name=".pantai.BanyuActivity"></activity>
+        <activity android:name=".pantai.BatuActivity"></activity>
+        <activity android:name=".pantai.GatraActivity"></activity>
+        <activity android:name=".pantai.LeterActivity"></activity>
+        <activity android:name=".pantai.LicinActivity"></activity>
+        <activity android:name=".pantai.SendangActivity"></activity>
+        <activity android:name=".pantai.SendikiActivity"></activity>
+        <activity android:name=".pantai.TelukActivity"></activity>
+        <activity android:name=".pantai.TigaActivity"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
